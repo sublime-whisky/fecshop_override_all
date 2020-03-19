@@ -62,6 +62,7 @@ return [
                       [
                           'css'	=>[
                               'css/fec.css',
+                              'css/bootstrap.min.css'
                           ],
                       ],
 
