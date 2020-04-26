@@ -16,7 +16,7 @@
                 <li class="yb_top"><a id="customizedGoToTop" href="#customizedGoToTop"  style="color:#fff">返回顶部</a></li>
                 <li class="yb_phone" style="display:none;">4008-123-456</li>
                 <li class="yb_QQ">
-                    <span style="position: relative; top:-10px;left:54px;">在线咨询QQ</span>
+                    <span style="position: relative; top:-10px;left:54px;">QQ咨询</span>
                     <span style="position: relative;top: 10px;left: -16px;"><?= explode("@", Yii::$service->email->contactsEmailAddress())[0]; ?></span>
 <!--                    <address class="block contact-us-address-block">-->
 <!--                        <div class="block-title">-->
