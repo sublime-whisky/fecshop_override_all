@@ -20,3 +20,47 @@
     width: 500px;
     float: right;
 }
+
+/*固定的悬浮窗*/
+.yb_conct {
+    position: fixed;
+    z-index: 99;
+    top: 40%;
+    right: -127px;
+    transition: all .3s ease;
+}
+.yb_bar ul li {
+    width: 180px;
+    height: 53px;
+    font: 16px/53px 'Microsoft YaHei';
+    color: #fff;
+    text-indent: 54px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    transition: all .5s ease;
+    overflow: hidden;
+}
+.yb_bar .yb_top {
+    background: #1d56a7 url(../images/fixCont.png) no-repeat 0 0;
+}
+.yb_bar .yb_phone {
+    background: #1d56a7 url(../images/fixCont.png) no-repeat 0 -57px;
+}
+.yb_bar .yb_QQ {
+    text-indent: 0;
+    background: #1d56a7 url(../images/fixCont.png) no-repeat 0 -113px;
+}
+.yb_bar .yb_QQ a{color:#fff}
+.yb_bar .yb_QQ a:hover{
+    color: #ff8400;
+    text-decoration: underline;
+}
+.yb_bar .yb_ercode {
+    /*height:200px;*/
+
+    background: #1d56a7 url(../images/fixCont.png) no-repeat 0 -169px;
+}
+
+.yb_bar .yb_ercode img {
+    padding: 0 29px 25px 29px;
+}

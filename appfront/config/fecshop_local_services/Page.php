@@ -31,7 +31,30 @@ return [
                  * 这样就可以将js和css文件使用独立的域名了【把域名对应的地址对应到$basePath】。
                  */
                 'baseUrl' => '@web/assets',
-                
+                // js and css config example:
+
+                'jsOptions'	=> [
+                    # js config 1
+                    [
+//                        'options' => [
+//                            'position' =>  'POS_END',
+//                        //	'condition'=> 'lt IE 9',
+//                        ],
+                        'js'	=>[
+                            'js/hover-scroll-bar.js',
+                        ],
+                    ],
+                    # js config 2
+                    //[
+                    //    'options' => [
+                    //        'condition'=> 'lt IE 9',
+                    //    ],
+                    //    'js'	=>[
+                    //        'js/ie9js.js'
+                    //    ],
+                    //],
+                ],
+
                 // js and css config example:
                 /**
                  * 'jsOptions'	=> [
