@@ -1,3 +1,3 @@
 # fecshop_override_all
 
-将本文件夹下文件拷贝复制到服务器的/www/web/yii2_fecshop_docker-master/app/fecshop下，并覆盖响应文件即可。
+将本文件夹所有子文件，分别拷贝到服务器到/www/web/yii2_fecshop_docker-master/app/fecshop下到相同路径文件即可。
